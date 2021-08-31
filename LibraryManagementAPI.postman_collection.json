@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "348db8fa-e4d4-4892-8f7a-a0e15eebe3c5",
+		"name": "LibraryManagementAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Username\":\"test1\",\r\n    \"Password\":\"password1\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/login",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Library Book List",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QxIiwibmJmIjoxNjI4MDE0NDE5LCJleHAiOjE2MjgwMTgwMTksImlhdCI6MTYyODAxNDQxOX0.DE8sDisMRU1pr570HFQ2FxXXJqKQOt7gkixE8tWPYgY",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44387/api/library/books",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"library",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Library Book Add Edit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3QxIiwibmJmIjoxNjI5OTc2ODA4LCJleHAiOjE2Mjk5ODA0MDgsImlhdCI6MTYyOTk3NjgwOH0.Z4a-p8a5J5XGvAfm1bhqIg3JlFZ0Cp0q81UpiCOfahg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"BookId\":\"BK01812608\",\r\n    \"BookName\":\"Complete Reference of Java32\",\r\n    \"Author\":\"Herbert Shield32\",\r\n    \"Quantity\":4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44387/api/library/addedit",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44387",
+					"path": [
+						"api",
+						"library",
+						"addedit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
