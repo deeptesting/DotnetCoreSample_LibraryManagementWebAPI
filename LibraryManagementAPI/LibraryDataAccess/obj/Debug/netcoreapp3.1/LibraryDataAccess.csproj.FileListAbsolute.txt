@@ -1,0 +1,9 @@
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\bin\Debug\netcoreapp3.1\LibraryDataAccess.deps.json
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\bin\Debug\netcoreapp3.1\LibraryDataAccess.dll
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\bin\Debug\netcoreapp3.1\LibraryDataAccess.pdb
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\obj\Debug\netcoreapp3.1\LibraryDataAccess.csproj.AssemblyReference.cache
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\obj\Debug\netcoreapp3.1\LibraryDataAccess.AssemblyInfoInputs.cache
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\obj\Debug\netcoreapp3.1\LibraryDataAccess.AssemblyInfo.cs
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\obj\Debug\netcoreapp3.1\LibraryDataAccess.csproj.CoreCompileInputs.cache
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\obj\Debug\netcoreapp3.1\LibraryDataAccess.dll
+H:\My Project\LibraryManagementWebAPI\LibraryManagementAPI\LibraryDataAccess\obj\Debug\netcoreapp3.1\LibraryDataAccess.pdb

@@ -1,0 +1,4 @@
+Open Visual Studio Command Prompt
+
+Scaffold-DbContext "Data Source=DESKTOP-0SVO414\SQLEXPRESS;Initial Catalog=LibraryDB;User ID=sa;Password=1234;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataEntityModel -f –d
+
